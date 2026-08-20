@@ -16,3 +16,16 @@ Agar kode ini bisa berjalan dan terhubung ke WiFi serta Telegram Anda, ikuti lan
 4. Setelah itu, Anda bisa melakukan *Upload* kode `CameraWebServer.ino` ke ESP32-CAM menggunakan Arduino IDE.
 
 **Catatan Keamanan:** File `secrets.h` sudah dimasukkan ke dalam `.gitignore`, sehingga password asli Anda tidak akan pernah terunggah secara tidak sengaja ke GitHub!
+
+## Dokumentasi Proyek
+
+Berikut adalah skema rangkaian dan hasil rakitan fisik dari Sistem Keamanan Rumah Pintar ini.
+
+### 1. Skema Rangkaian (ESP32-CAM ke Sensor PIR)
+![Skema Rangkaian](images/skema.png)
+
+### 2. Pemasangan Komponen Fisik
+![Komponen Fisik](images/komponen.png)
+
+### 3. Hasil Akhir (Prototipe)
+![Hasil Akhir](images/hasil.png)
